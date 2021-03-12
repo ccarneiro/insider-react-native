@@ -11,7 +11,7 @@ export default function Menu() {
         <TouchableOpacity style={styles.container} onPress={() => navigation.openDrawer()}>
             <Feather
                 name="menu"
-                size="36"
+                size={36}
                 color="#373737"
             />
         </TouchableOpacity>
